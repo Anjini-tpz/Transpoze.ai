@@ -1,0 +1,1046 @@
+            :root {
+                --ffsd: 0px;
+                --1vw: calc((100vw - var(--sbw, 0px)) / 100);
+                --1vh: var(--inner1Vh, 1vh);
+            }
+
+            @media (prefers-reduced-motion: reduce) {
+                .animated {
+                    animation: none !important;
+                }
+            }
+
+            html {
+                zoom: var(--rzf, 1);
+                font-size: max(calc(min(var(--1vw, 1vw), 13.66px) * var(--rfso, 1)), var(--minfs, 0px));
+                -webkit-text-size-adjust: 100%;
+                scroll-behavior: smooth;
+            }
+
+            body {
+                font-size: calc(1rem * var(--bfso, 1));
+            }
+
+            body,
+            html,
+            p,
+            ul,
+            ol,
+            li {
+                margin: 0;
+                padding: 0;
+                font-synthesis: none;
+                font-kerning: none;
+                font-variant-ligatures: none;
+                font-feature-settings: "kern" 0, "calt" 0, "liga" 0, "clig" 0, "dlig" 0, "hlig" 0;
+                font-family: unset;
+                -webkit-font-smoothing: subpixel-antialiased;
+                -moz-osx-font-smoothing: grayscale;
+                text-rendering: geometricprecision;
+                white-space: normal;
+            }
+
+            li {
+                text-align: unset;
+            }
+
+            a {
+                text-decoration: none;
+                color: inherit;
+            }
+
+            img {
+                -webkit-user-drag: none;
+                -moz-user-drag: none;
+                -o-user-drag: none;
+                user-drag: none;
+                -webkit-touch-callout: none;
+            }
+
+            @font-face {
+                font-family: YACgEev4gKc-0;
+                src: url(fonts/254a21cb559da08565d4a9c0c0b84a36.woff2);
+                font-style: normal;
+                font-weight: 400;
+            }
+
+            @font-face {
+                font-family: YACgEev4gKc-0;
+                src: url(fonts/58b393ddd1cfd8653a34e37082411b9d.woff2);
+                font-style: normal;
+                font-weight: 700;
+            }
+
+            @font-face {
+                font-family: YACgEev4gKc-0;
+                src: url(fonts/b18c1bcf0315436f8e5d8a5f861f701e.woff2);
+                font-style: italic;
+                font-weight: 400;
+            }
+
+            @font-face {
+                font-family: YACgEev4gKc-0;
+                src: url(fonts/6c1a5314b777a3d520ba3da12df32cc9.woff2);
+                font-style: italic;
+                font-weight: 700;
+            }
+
+            @font-face {
+                font-family: YACgEev4gKc-0;
+                src: url(fonts/254a21cb559da08565d4a9c0c0b84a36.woff2);
+                font-style: normal;
+                font-weight: 100;
+            }
+
+            @font-face {
+                font-family: YACgEev4gKc-0;
+                src: url(fonts/b18c1bcf0315436f8e5d8a5f861f701e.woff2);
+                font-style: italic;
+                font-weight: 100;
+            }
+
+            @font-face {
+                font-family: YACgEev4gKc-0;
+                src: url(fonts/254a21cb559da08565d4a9c0c0b84a36.woff2);
+                font-style: normal;
+                font-weight: 200;
+            }
+
+            @font-face {
+                font-family: YACgEev4gKc-0;
+                src: url(fonts/b18c1bcf0315436f8e5d8a5f861f701e.woff2);
+                font-style: italic;
+                font-weight: 200;
+            }
+
+            @font-face {
+                font-family: YACgEev4gKc-0;
+                src: url(fonts/254a21cb559da08565d4a9c0c0b84a36.woff2);
+                font-style: normal;
+                font-weight: 300;
+            }
+
+            @font-face {
+                font-family: YACgEev4gKc-0;
+                src: url(fonts/b18c1bcf0315436f8e5d8a5f861f701e.woff2);
+                font-style: italic;
+                font-weight: 300;
+            }
+
+            @font-face {
+                font-family: YACgEev4gKc-0;
+                src: url(fonts/254a21cb559da08565d4a9c0c0b84a36.woff2);
+                font-style: normal;
+                font-weight: 500;
+            }
+
+            @font-face {
+                font-family: YACgEev4gKc-0;
+                src: url(fonts/b18c1bcf0315436f8e5d8a5f861f701e.woff2);
+                font-style: italic;
+                font-weight: 500;
+            }
+
+            @font-face {
+                font-family: YACgEev4gKc-0;
+                src: url(fonts/58b393ddd1cfd8653a34e37082411b9d.woff2);
+                font-style: normal;
+                font-weight: 600;
+            }
+
+            @font-face {
+                font-family: YACgEev4gKc-0;
+                src: url(fonts/6c1a5314b777a3d520ba3da12df32cc9.woff2);
+                font-style: italic;
+                font-weight: 600;
+            }
+
+            @font-face {
+                font-family: YACgEev4gKc-0;
+                src: url(fonts/58b393ddd1cfd8653a34e37082411b9d.woff2);
+                font-style: normal;
+                font-weight: 800;
+            }
+
+            @font-face {
+                font-family: YACgEev4gKc-0;
+                src: url(fonts/6c1a5314b777a3d520ba3da12df32cc9.woff2);
+                font-style: italic;
+                font-weight: 800;
+            }
+
+            @font-face {
+                font-family: YACgEev4gKc-0;
+                src: url(fonts/58b393ddd1cfd8653a34e37082411b9d.woff2);
+                font-style: normal;
+                font-weight: 900;
+            }
+
+            @font-face {
+                font-family: YACgEev4gKc-0;
+                src: url(fonts/6c1a5314b777a3d520ba3da12df32cc9.woff2);
+                font-style: italic;
+                font-weight: 900;
+            }
+
+            @font-face {
+                font-family: YACgEZ1cb1Q-0;
+                src: url(fonts/f8f199f09526f79e87644ed227e0f651.woff2);
+                font-style: normal;
+                font-weight: 400;
+            }
+
+            @font-face {
+                font-family: YACgEZ1cb1Q-0;
+                src: url(fonts/98c4d2c0223fc8474641c77f923528e9.woff2);
+                font-style: normal;
+                font-weight: 700;
+            }
+
+            @font-face {
+                font-family: YACgEZ1cb1Q-0;
+                src: url(fonts/d257a7100844bc3f98c9021168b6249e.woff2);
+                font-style: italic;
+                font-weight: 400;
+            }
+
+            @font-face {
+                font-family: YACgEZ1cb1Q-0;
+                src: url(fonts/1060345c54d396e76d73f1da7ee200bd.woff2);
+                font-style: italic;
+                font-weight: 700;
+            }
+
+            @font-face {
+                font-family: YACgEZ1cb1Q-0;
+                src: url(fonts/f8f199f09526f79e87644ed227e0f651.woff2);
+                font-style: normal;
+                font-weight: 100;
+            }
+
+            @font-face {
+                font-family: YACgEZ1cb1Q-0;
+                src: url(fonts/d257a7100844bc3f98c9021168b6249e.woff2);
+                font-style: italic;
+                font-weight: 100;
+            }
+
+            @font-face {
+                font-family: YACgEZ1cb1Q-0;
+                src: url(fonts/f8f199f09526f79e87644ed227e0f651.woff2);
+                font-style: normal;
+                font-weight: 200;
+            }
+
+            @font-face {
+                font-family: YACgEZ1cb1Q-0;
+                src: url(fonts/d257a7100844bc3f98c9021168b6249e.woff2);
+                font-style: italic;
+                font-weight: 200;
+            }
+
+            @font-face {
+                font-family: YACgEZ1cb1Q-0;
+                src: url(fonts/f8f199f09526f79e87644ed227e0f651.woff2);
+                font-style: normal;
+                font-weight: 300;
+            }
+
+            @font-face {
+                font-family: YACgEZ1cb1Q-0;
+                src: url(fonts/d257a7100844bc3f98c9021168b6249e.woff2);
+                font-style: italic;
+                font-weight: 300;
+            }
+
+            @font-face {
+                font-family: YACgEZ1cb1Q-0;
+                src: url(fonts/f8f199f09526f79e87644ed227e0f651.woff2);
+                font-style: normal;
+                font-weight: 500;
+            }
+
+            @font-face {
+                font-family: YACgEZ1cb1Q-0;
+                src: url(fonts/d257a7100844bc3f98c9021168b6249e.woff2);
+                font-style: italic;
+                font-weight: 500;
+            }
+
+            @font-face {
+                font-family: YACgEZ1cb1Q-0;
+                src: url(fonts/98c4d2c0223fc8474641c77f923528e9.woff2);
+                font-style: normal;
+                font-weight: 600;
+            }
+
+            @font-face {
+                font-family: YACgEZ1cb1Q-0;
+                src: url(fonts/1060345c54d396e76d73f1da7ee200bd.woff2);
+                font-style: italic;
+                font-weight: 600;
+            }
+
+            @font-face {
+                font-family: YACgEZ1cb1Q-0;
+                src: url(fonts/98c4d2c0223fc8474641c77f923528e9.woff2);
+                font-style: normal;
+                font-weight: 800;
+            }
+
+            @font-face {
+                font-family: YACgEZ1cb1Q-0;
+                src: url(fonts/1060345c54d396e76d73f1da7ee200bd.woff2);
+                font-style: italic;
+                font-weight: 800;
+            }
+
+            @font-face {
+                font-family: YACgEZ1cb1Q-0;
+                src: url(fonts/98c4d2c0223fc8474641c77f923528e9.woff2);
+                font-style: normal;
+                font-weight: 900;
+            }
+
+            @font-face {
+                font-family: YACgEZ1cb1Q-0;
+                src: url(fonts/1060345c54d396e76d73f1da7ee200bd.woff2);
+                font-style: italic;
+                font-weight: 900;
+            }
+
+            #verticalMenu {
+                display: none;
+                font-family: YACgEev4gKc-0, -apple-system, BlinkMacSystemFont, sans-serif;
+                font-size: 1.5rem;
+                background-color: #ffffff;
+                margin: 0 0 0 auto;
+                padding: 0;
+                border: 12px solid #ffffff;
+                height: 100%;
+                width: 400px;
+                max-width: 80vw;
+                overflow: auto;
+                box-sizing: border-box;
+                z-index: 2;
+                position: fixed;
+                top: 0px;
+                right: 0px;
+                transform: translateX(400px);
+                transition: all 0.35s;
+            }
+
+            #menuToggle:checked~#verticalMenu {
+                transform: translateX(0px);
+            }
+
+            #menuButton {
+                display: none;
+                fill: #304254;
+                z-index: 3;
+                justify-content: center;
+                align-items: center;
+            }
+
+            #menuButton:hover {
+                cursor: pointer;
+                color: #4d6a87;
+                text-decoration-line: none;
+            }
+
+            .navMenuLinkContent:hover {
+                color: #4d6a87;
+            }
+
+            .navMenuLink {
+                color: #304254;
+                display: flex;
+                align-items: center;
+                list-style-type: none;
+                white-space: nowrap;
+            }
+
+            .navMenuLinkContent {
+                display: inline-block;
+                text-decoration-line: none;
+                font-family: YACgEev4gKc-0, -apple-system, BlinkMacSystemFont, sans-serif;
+                font-size: 15px;
+                font-weight: 700;
+                white-space: nowrap;
+                padding: 10px 16px;
+                margin-right: auto;
+                color: #304254;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+
+            #menuToggle:checked~#menuButton {
+                z-index: 2;
+                width: 100vw;
+                height: 100vh;
+                background-color: #4d6a87;
+                opacity: 0.55;
+                top: 0px;
+                position: fixed;
+            }
+
+            #menuToggle:checked~#menuButton>#menuButtonIcon {
+                display: none;
+            }
+
+            #horizontalMenu {
+                display: flex;
+                justify-content: flex-end;
+            }
+
+            html {
+                scroll-padding-top: 50px;
+            }
+
+            @media (max-width: 375px) {
+                #ZrqEedFn31Blmp14 {
+                    grid-area: 2 / 2 / 3 / 3;
+                    position: relative;
+                }
+
+                #fsTeyOFppVtb2LK3 {
+                    grid-template-columns: 0 373.31677019%;
+                    left: -136.65838509%;
+                    grid-template-rows: 0 100%;
+                }
+
+                #nNfi9qjVkXlPIK7S {
+                    grid-area: 2 / 4 / 3 / 11;
+                    position: relative;
+                }
+
+                #Ud0yiXSxRoNdMdCN {
+                    font-size: max(calc(12px * var(--rfso, var(--bfso, 1))), calc(4.66904em - var(--ffsd)));
+                }
+
+                #CRMTVXRXx8iFPmyI {
+                    --first-font-size: max(calc(12px * var(--rfso, var(--bfso, 1))), 4.66904em);
+                    --last-font-size: var(--first-font-size);
+                    margin-top: calc(var(--first-font-size) * -0.1);
+                    margin-bottom: calc(var(--last-font-size) * -0.1);
+                }
+
+                #qIXLBZ9bueUY6MF5 {
+                    min-width: 19.57786346rem;
+                }
+
+                #U5c740mig0BYmycj {
+                    grid-area: 4 / 2 / 9 / 5;
+                    position: relative;
+                }
+
+                #a8DbKnrTeT602aee {
+                    font-size: max(calc(12px * var(--rfso, var(--bfso, 1))), calc(4.66905094em - var(--ffsd)));
+                }
+
+                #BvID893HAVywsksS {
+                    --first-font-size: max(calc(12px * var(--rfso, var(--bfso, 1))), 4.66905094em);
+                    --last-font-size: var(--first-font-size);
+                    margin-top: calc(var(--first-font-size) * -0.1);
+                    margin-bottom: calc(var(--last-font-size) * -0.1);
+                }
+
+                #lz07sNy4pPeNqEo8 {
+                    min-width: 20.71321063rem;
+                }
+
+                #W7P4Qbwxt7aGnkAk {
+                    grid-area: 5 / 6 / 7 / 9;
+                    position: relative;
+                }
+
+                #wsuWlcvzGElxvJuh {
+                    font-size: max(calc(12px * var(--rfso, var(--bfso, 1))), calc(4.66905094em - var(--ffsd)));
+                }
+
+                #BBlultfRawD0bXFA {
+                    --first-font-size: max(calc(12px * var(--rfso, var(--bfso, 1))), 4.66905094em);
+                    --last-font-size: var(--first-font-size);
+                    margin-top: calc(var(--first-font-size) * -0.1);
+                    margin-bottom: calc(var(--last-font-size) * -0.1);
+                }
+
+                #sEGZaPGsqDH052oC {
+                    min-width: 18.6955756rem;
+                }
+
+                #Mcjvb0SQYd2spLqI {
+                    grid-area: 6 / 10 / 8 / 13;
+                    position: relative;
+                }
+
+                #Tc86egQ9yIDjxL7x {
+                    font-size: max(calc(12px * var(--rfso, var(--bfso, 1))), calc(4.66905094em - var(--ffsd)));
+                }
+
+                #dMfbTY9dYujDiQXO {
+                    --first-font-size: max(calc(12px * var(--rfso, var(--bfso, 1))), 4.66905094em);
+                    --last-font-size: var(--first-font-size);
+                    margin-top: calc(var(--first-font-size) * -0.1);
+                    margin-bottom: calc(var(--last-font-size) * -0.1);
+                }
+
+                #KVnwRQ9U6AXEYwcW {
+                    min-width: 24.26971983rem;
+                }
+
+                #fSJ5gqjANXJmh6mH {
+                    grid-area: 10 / 3 / 12 / 7;
+                    position: relative;
+                }
+
+                #sAHLmEeFpG6knqVj {
+                    font-size: max(calc(12px * var(--rfso, var(--bfso, 1))), calc(4.66905094em - var(--ffsd)));
+                }
+
+                #F62ub3fphizwTP2n {
+                    --first-font-size: max(calc(12px * var(--rfso, var(--bfso, 1))), 4.66905094em);
+                    --last-font-size: var(--first-font-size);
+                    margin-top: calc(var(--first-font-size) * -0.1);
+                    margin-bottom: calc(var(--last-font-size) * -0.1);
+                }
+
+                #Sknr1W0iWXWXppPQ {
+                    min-width: 22.58037796rem;
+                }
+
+                #vrVwsIfFgxrfqpFo {
+                    grid-area: 11 / 8 / 13 / 12;
+                    position: relative;
+                }
+
+                #VHsOcfRVfYsNdRZx {
+                    grid-template-columns: 14.30667515rem 9.20160928rem 8.50955419rem 1.73336666rem 6.4rem 7.49346565rem 6.4rem 6.68641164rem 6.4rem 0.85107879rem 8.50955419rem 9.20160928rem 14.30667515rem;
+                    grid-template-rows: minmax(58.1781472rem, max-content) minmax(35.96432275rem, max-content) minmax(6.4rem, max-content) 0 0 minmax(5.41319085rem, max-content) 0 minmax(0.05300115rem, max-content) minmax(6.4rem, max-content) 0 minmax(5.41319085rem, max-content) 0 minmax(58.1781472rem, max-content);
+                }
+
+                #OjzpDVdybkuCTwfp {
+                    min-height: calc(calc(100 * var(--1vh, 1vh)) - 50px);
+                }
+            }
+
+            @media (min-width: 375.05px) and (max-width: 480px) {
+                #ZrqEedFn31Blmp14 {
+                    grid-area: 2 / 2 / 3 / 3;
+                    position: relative;
+                }
+
+                #fsTeyOFppVtb2LK3 {
+                    grid-template-columns: 0 291.65372671%;
+                    left: -95.82686335%;
+                    grid-template-rows: 0 100%;
+                }
+
+                #nNfi9qjVkXlPIK7S {
+                    grid-area: 2 / 6 / 3 / 9;
+                    position: relative;
+                }
+
+                #Ud0yiXSxRoNdMdCN {
+                    font-size: max(calc(12px * var(--rfso, var(--bfso, 1))), calc(3.6476875em - var(--ffsd)));
+                }
+
+                #CRMTVXRXx8iFPmyI {
+                    --first-font-size: max(calc(12px * var(--rfso, var(--bfso, 1))), 3.6476875em);
+                    --last-font-size: var(--first-font-size);
+                    margin-top: calc(var(--first-font-size) * -0.1);
+                    margin-bottom: calc(var(--last-font-size) * -0.1);
+                }
+
+                #qIXLBZ9bueUY6MF5 {
+                    min-width: 15.29520583rem;
+                }
+
+                #U5c740mig0BYmycj {
+                    grid-area: 4 / 3 / 11 / 4;
+                    position: relative;
+                }
+
+                #a8DbKnrTeT602aee {
+                    font-size: max(calc(12px * var(--rfso, var(--bfso, 1))), calc(3.64769605em - var(--ffsd)));
+                }
+
+                #BvID893HAVywsksS {
+                    --first-font-size: max(calc(12px * var(--rfso, var(--bfso, 1))), 3.64769605em);
+                    --last-font-size: var(--first-font-size);
+                    margin-top: calc(var(--first-font-size) * -0.1);
+                    margin-bottom: calc(var(--last-font-size) * -0.1);
+                }
+
+                #lz07sNy4pPeNqEo8 {
+                    min-width: 16.18219581rem;
+                }
+
+                #W7P4Qbwxt7aGnkAk {
+                    grid-area: 5 / 5 / 8 / 7;
+                    position: relative;
+                }
+
+                #wsuWlcvzGElxvJuh {
+                    font-size: max(calc(12px * var(--rfso, var(--bfso, 1))), calc(3.64769605em - var(--ffsd)));
+                }
+
+                #BBlultfRawD0bXFA {
+                    --first-font-size: max(calc(12px * var(--rfso, var(--bfso, 1))), 3.64769605em);
+                    --last-font-size: var(--first-font-size);
+                    margin-top: calc(var(--first-font-size) * -0.1);
+                    margin-bottom: calc(var(--last-font-size) * -0.1);
+                }
+
+                #sEGZaPGsqDH052oC {
+                    min-width: 14.60591844rem;
+                }
+
+                #Mcjvb0SQYd2spLqI {
+                    grid-area: 6 / 8 / 9 / 10;
+                    position: relative;
+                }
+
+                #Tc86egQ9yIDjxL7x {
+                    font-size: max(calc(12px * var(--rfso, var(--bfso, 1))), calc(3.64769605em - var(--ffsd)));
+                }
+
+                #dMfbTY9dYujDiQXO {
+                    --first-font-size: max(calc(12px * var(--rfso, var(--bfso, 1))), 3.64769605em);
+                    --last-font-size: var(--first-font-size);
+                    margin-top: calc(var(--first-font-size) * -0.1);
+                    margin-bottom: calc(var(--last-font-size) * -0.1);
+                }
+
+                #KVnwRQ9U6AXEYwcW {
+                    min-width: 18.96071862rem;
+                }
+
+                #fSJ5gqjANXJmh6mH {
+                    grid-area: 7 / 11 / 10 / 12;
+                    position: relative;
+                }
+
+                #sAHLmEeFpG6knqVj {
+                    font-size: max(calc(12px * var(--rfso, var(--bfso, 1))), calc(3.64769605em - var(--ffsd)));
+                }
+
+                #F62ub3fphizwTP2n {
+                    --first-font-size: max(calc(12px * var(--rfso, var(--bfso, 1))), 3.64769605em);
+                    --last-font-size: var(--first-font-size);
+                    margin-top: calc(var(--first-font-size) * -0.1);
+                    margin-bottom: calc(var(--last-font-size) * -0.1);
+                }
+
+                #Sknr1W0iWXWXppPQ {
+                    min-width: 93.4375rem;
+                }
+
+                #vrVwsIfFgxrfqpFo {
+                    grid-area: 12 / 2 / 13 / 13;
+                    position: relative;
+                }
+
+                #VHsOcfRVfYsNdRZx {
+                    grid-template-columns: 3.33333333rem 6.85298065rem 15.19103916rem 5rem 5.57408328rem 10.50394586rem 5rem 12.59318129rem 1.90857049rem 5rem 18.85655195rem 6.85298065rem 3.33333333rem;
+                    grid-template-rows: minmax(45.4516775rem, max-content) minmax(28.09712715rem, max-content) minmax(5rem, max-content) 0 0 0 minmax(4.22905535rem, max-content) 0 0 minmax(0.04140715rem, max-content) minmax(5rem, max-content) minmax(4.22905535rem, max-content) minmax(45.4516775rem, max-content);
+                }
+
+                #OjzpDVdybkuCTwfp {
+                    min-height: calc(calc(100 * var(--1vh, 1vh)) - 50px);
+                }
+            }
+
+            @media (min-width: 480.05px) and (max-width: 768px) {
+                #ZrqEedFn31Blmp14 {
+                    grid-area: 2 / 2 / 3 / 3;
+                    position: relative;
+                }
+
+                #fsTeyOFppVtb2LK3 {
+                    grid-template-columns: 0 186.70257505%;
+                    left: -43.35128753%;
+                    grid-template-rows: 0 100%;
+                }
+
+                #nNfi9qjVkXlPIK7S {
+                    grid-area: 2 / 7 / 3 / 10;
+                    position: relative;
+                }
+
+                #Ud0yiXSxRoNdMdCN {
+                    font-size: max(calc(12px * var(--rfso, var(--bfso, 1))), calc(2.27980469em - var(--ffsd)));
+                }
+
+                #CRMTVXRXx8iFPmyI {
+                    --first-font-size: max(calc(12px * var(--rfso, var(--bfso, 1))), 2.27980469em);
+                    --last-font-size: var(--first-font-size);
+                    margin-top: calc(var(--first-font-size) * -0.1);
+                    margin-bottom: calc(var(--last-font-size) * -0.1);
+                }
+
+                #qIXLBZ9bueUY6MF5 {
+                    min-width: 9.55950364rem;
+                }
+
+                #U5c740mig0BYmycj {
+                    grid-area: 4 / 2 / 13 / 3;
+                    position: relative;
+                }
+
+                #a8DbKnrTeT602aee {
+                    font-size: max(calc(12px * var(--rfso, var(--bfso, 1))), calc(2.27981003em - var(--ffsd)));
+                }
+
+                #BvID893HAVywsksS {
+                    --first-font-size: max(calc(12px * var(--rfso, var(--bfso, 1))), 2.27981003em);
+                    --last-font-size: var(--first-font-size);
+                    margin-top: calc(var(--first-font-size) * -0.1);
+                    margin-bottom: calc(var(--last-font-size) * -0.1);
+                }
+
+                #lz07sNy4pPeNqEo8 {
+                    min-width: 10.11387238rem;
+                }
+
+                #W7P4Qbwxt7aGnkAk {
+                    grid-area: 5 / 4 / 9 / 5;
+                    position: relative;
+                }
+
+                #wsuWlcvzGElxvJuh {
+                    font-size: max(calc(12px * var(--rfso, var(--bfso, 1))), calc(2.27981003em - var(--ffsd)));
+                }
+
+                #BBlultfRawD0bXFA {
+                    --first-font-size: max(calc(12px * var(--rfso, var(--bfso, 1))), 2.27981003em);
+                    --last-font-size: var(--first-font-size);
+                    margin-top: calc(var(--first-font-size) * -0.1);
+                    margin-bottom: calc(var(--last-font-size) * -0.1);
+                }
+
+                #sEGZaPGsqDH052oC {
+                    min-width: 9.12869902rem;
+                }
+
+                #Mcjvb0SQYd2spLqI {
+                    grid-area: 6 / 6 / 10 / 8;
+                    position: relative;
+                }
+
+                #Tc86egQ9yIDjxL7x {
+                    font-size: max(calc(12px * var(--rfso, var(--bfso, 1))), calc(2.27981003em - var(--ffsd)));
+                }
+
+                #dMfbTY9dYujDiQXO {
+                    --first-font-size: max(calc(12px * var(--rfso, var(--bfso, 1))), 2.27981003em);
+                    --last-font-size: var(--first-font-size);
+                    margin-top: calc(var(--first-font-size) * -0.1);
+                    margin-bottom: calc(var(--last-font-size) * -0.1);
+                }
+
+                #KVnwRQ9U6AXEYwcW {
+                    min-width: 11.85044914rem;
+                }
+
+                #fSJ5gqjANXJmh6mH {
+                    grid-area: 7 / 9 / 11 / 11;
+                    position: relative;
+                }
+
+                #sAHLmEeFpG6knqVj {
+                    font-size: max(calc(12px * var(--rfso, var(--bfso, 1))), calc(2.27981003em - var(--ffsd)));
+                }
+
+                #F62ub3fphizwTP2n {
+                    --first-font-size: max(calc(12px * var(--rfso, var(--bfso, 1))), 2.27981003em);
+                    --last-font-size: var(--first-font-size);
+                    margin-top: calc(var(--first-font-size) * -0.1);
+                    margin-bottom: calc(var(--last-font-size) * -0.1);
+                }
+
+                #Sknr1W0iWXWXppPQ {
+                    min-width: 11.02557518rem;
+                }
+
+                #vrVwsIfFgxrfqpFo {
+                    grid-area: 8 / 12 / 12 / 13;
+                    position: relative;
+                }
+
+                #VHsOcfRVfYsNdRZx {
+                    grid-template-columns: 4.16666667rem 9.49439948rem 5.47419123rem 10.04876821rem 5.53630155rem 6.49932063rem 2.56427423rem 5.53630155rem 9.46012869rem 2.32521628rem 5.94873853rem 10.96047101rem 21.98522194rem;
+                    grid-template-rows: minmax(31.81221157rem, max-content) minmax(17.56070447rem, max-content) minmax(4.16666667rem, max-content) 0 0 0 0 minmax(2.6431596rem, max-content) 0 0 0 minmax(0.02587947rem, max-content) minmax(31.81221157rem, max-content);
+                }
+
+                #OjzpDVdybkuCTwfp {
+                    min-height: calc(calc(100 * var(--1vh, 1vh)) - 50px);
+                }
+            }
+
+            @media (min-width: 768.05px) and (max-width: 1024px) {
+                #ZrqEedFn31Blmp14 {
+                    grid-area: 2 / 2 / 3 / 3;
+                    position: relative;
+                }
+
+                #fsTeyOFppVtb2LK3 {
+                    grid-template-columns: 0 139.40086064%;
+                    left: -19.70043032%;
+                    grid-template-rows: 0 100%;
+                }
+
+                #nNfi9qjVkXlPIK7S {
+                    grid-area: 2 / 2 / 13 / 3;
+                    position: relative;
+                }
+
+                #Ud0yiXSxRoNdMdCN {
+                    font-size: max(calc(12px * var(--rfso, var(--bfso, 1))), calc(1.70985352em - var(--ffsd)));
+                }
+
+                #CRMTVXRXx8iFPmyI {
+                    --first-font-size: max(calc(12px * var(--rfso, var(--bfso, 1))), 1.70985352em);
+                    --last-font-size: var(--first-font-size);
+                    margin-top: calc(var(--first-font-size) * -0.1);
+                    margin-bottom: calc(var(--last-font-size) * -0.1);
+                }
+
+                #qIXLBZ9bueUY6MF5 {
+                    min-width: 7.16962773rem;
+                }
+
+                #U5c740mig0BYmycj {
+                    grid-area: 3 / 4 / 12 / 5;
+                    position: relative;
+                }
+
+                #a8DbKnrTeT602aee {
+                    font-size: max(calc(12px * var(--rfso, var(--bfso, 1))), calc(1.70985752em - var(--ffsd)));
+                }
+
+                #BvID893HAVywsksS {
+                    --first-font-size: max(calc(12px * var(--rfso, var(--bfso, 1))), 1.70985752em);
+                    --last-font-size: var(--first-font-size);
+                    margin-top: calc(var(--first-font-size) * -0.1);
+                    margin-bottom: calc(var(--last-font-size) * -0.1);
+                }
+
+                #lz07sNy4pPeNqEo8 {
+                    min-width: 7.58540428rem;
+                }
+
+                #W7P4Qbwxt7aGnkAk {
+                    grid-area: 4 / 6 / 8 / 7;
+                    position: relative;
+                }
+
+                #wsuWlcvzGElxvJuh {
+                    font-size: max(calc(12px * var(--rfso, var(--bfso, 1))), calc(1.70985752em - var(--ffsd)));
+                }
+
+                #BBlultfRawD0bXFA {
+                    --first-font-size: max(calc(12px * var(--rfso, var(--bfso, 1))), 1.70985752em);
+                    --last-font-size: var(--first-font-size);
+                    margin-top: calc(var(--first-font-size) * -0.1);
+                    margin-bottom: calc(var(--last-font-size) * -0.1);
+                }
+
+                #sEGZaPGsqDH052oC {
+                    min-width: 6.84652427rem;
+                }
+
+                #Mcjvb0SQYd2spLqI {
+                    grid-area: 5 / 8 / 9 / 9;
+                    position: relative;
+                }
+
+                #Tc86egQ9yIDjxL7x {
+                    font-size: max(calc(12px * var(--rfso, var(--bfso, 1))), calc(1.70985752em - var(--ffsd)));
+                }
+
+                #dMfbTY9dYujDiQXO {
+                    --first-font-size: max(calc(12px * var(--rfso, var(--bfso, 1))), 1.70985752em);
+                    --last-font-size: var(--first-font-size);
+                    margin-top: calc(var(--first-font-size) * -0.1);
+                    margin-bottom: calc(var(--last-font-size) * -0.1);
+                }
+
+                #KVnwRQ9U6AXEYwcW {
+                    min-width: 8.88783685rem;
+                }
+
+                #fSJ5gqjANXJmh6mH {
+                    grid-area: 6 / 10 / 10 / 11;
+                    position: relative;
+                }
+
+                #sAHLmEeFpG6knqVj {
+                    font-size: max(calc(12px * var(--rfso, var(--bfso, 1))), calc(1.70985752em - var(--ffsd)));
+                }
+
+                #F62ub3fphizwTP2n {
+                    --first-font-size: max(calc(12px * var(--rfso, var(--bfso, 1))), 1.70985752em);
+                    --last-font-size: var(--first-font-size);
+                    margin-top: calc(var(--first-font-size) * -0.1);
+                    margin-bottom: calc(var(--last-font-size) * -0.1);
+                }
+
+                #Sknr1W0iWXWXppPQ {
+                    min-width: 8.26918138rem;
+                }
+
+                #vrVwsIfFgxrfqpFo {
+                    grid-area: 7 / 12 / 11 / 13;
+                    position: relative;
+                }
+
+                #VHsOcfRVfYsNdRZx {
+                    grid-template-columns: 14.15919405rem 13.17052835rem 3.125rem 7.12079961rem 4.10564342rem 7.53657616rem 4.15222616rem 6.79769614rem 4.15222616rem 8.83900873rem 4.4615539rem 8.22035326rem 14.15919405rem;
+                    grid-template-rows: minmax(26.27496798rem, max-content) minmax(5.59407933rem, max-content) 0 0 0 0 minmax(1.9823697rem, max-content) 0 0 0 minmax(0.0194096rem, max-content) minmax(5.57466973rem, max-content) minmax(26.27496798rem, max-content);
+                }
+
+                #OjzpDVdybkuCTwfp {
+                    min-height: calc(calc(100 * var(--1vh, 1vh)) - 50px);
+                }
+            }
+
+            @media (min-width: 1024.05px) {
+                #ZrqEedFn31Blmp14 {
+                    grid-area: 2 / 2 / 3 / 3;
+                    position: relative;
+                }
+
+                #fsTeyOFppVtb2LK3 {
+                    grid-template-columns: 0 100%;
+                    grid-template-rows: 0 100%;
+                }
+
+                #nNfi9qjVkXlPIK7S {
+                    grid-area: 2 / 2 / 13 / 3;
+                    position: relative;
+                }
+
+                #Ud0yiXSxRoNdMdCN {
+                    font-size: max(calc(12px * var(--rfso, var(--bfso, 1))), calc(1.28176428em - var(--ffsd)));
+                }
+
+                #CRMTVXRXx8iFPmyI {
+                    --first-font-size: max(calc(12px * var(--rfso, var(--bfso, 1))), 1.28176428em);
+                    --last-font-size: var(--first-font-size);
+                    margin-top: calc(var(--first-font-size) * -0.1);
+                    margin-bottom: calc(var(--last-font-size) * -0.1);
+                }
+
+                #qIXLBZ9bueUY6MF5 {
+                    min-width: 5.37459648rem;
+                }
+
+                #U5c740mig0BYmycj {
+                    grid-area: 3 / 4 / 12 / 5;
+                    position: relative;
+                }
+
+                #a8DbKnrTeT602aee {
+                    font-size: max(calc(12px * var(--rfso, var(--bfso, 1))), calc(1.28176728em - var(--ffsd)));
+                }
+
+                #BvID893HAVywsksS {
+                    --first-font-size: max(calc(12px * var(--rfso, var(--bfso, 1))), 1.28176728em);
+                    --last-font-size: var(--first-font-size);
+                    margin-top: calc(var(--first-font-size) * -0.1);
+                    margin-bottom: calc(var(--last-font-size) * -0.1);
+                }
+
+                #lz07sNy4pPeNqEo8 {
+                    min-width: 5.68627671rem;
+                }
+
+                #W7P4Qbwxt7aGnkAk {
+                    grid-area: 4 / 6 / 8 / 7;
+                    position: relative;
+                }
+
+                #wsuWlcvzGElxvJuh {
+                    font-size: max(calc(12px * var(--rfso, var(--bfso, 1))), calc(1.28176728em - var(--ffsd)));
+                }
+
+                #BBlultfRawD0bXFA {
+                    --first-font-size: max(calc(12px * var(--rfso, var(--bfso, 1))), 1.28176728em);
+                    --last-font-size: var(--first-font-size);
+                    margin-top: calc(var(--first-font-size) * -0.1);
+                    margin-bottom: calc(var(--last-font-size) * -0.1);
+                }
+
+                #sEGZaPGsqDH052oC {
+                    min-width: 5.13238715rem;
+                }
+
+                #Mcjvb0SQYd2spLqI {
+                    grid-area: 5 / 8 / 9 / 9;
+                    position: relative;
+                }
+
+                #Tc86egQ9yIDjxL7x {
+                    font-size: max(calc(12px * var(--rfso, var(--bfso, 1))), calc(1.28176728em - var(--ffsd)));
+                }
+
+                #dMfbTY9dYujDiQXO {
+                    --first-font-size: max(calc(12px * var(--rfso, var(--bfso, 1))), 1.28176728em);
+                    --last-font-size: var(--first-font-size);
+                    margin-top: calc(var(--first-font-size) * -0.1);
+                    margin-bottom: calc(var(--last-font-size) * -0.1);
+                }
+
+                #KVnwRQ9U6AXEYwcW {
+                    min-width: 6.66262441rem;
+                }
+
+                #fSJ5gqjANXJmh6mH {
+                    grid-area: 6 / 10 / 10 / 11;
+                    position: relative;
+                }
+
+                #sAHLmEeFpG6knqVj {
+                    font-size: max(calc(12px * var(--rfso, var(--bfso, 1))), calc(1.28176728em - var(--ffsd)));
+                }
+
+                #F62ub3fphizwTP2n {
+                    --first-font-size: max(calc(12px * var(--rfso, var(--bfso, 1))), 1.28176728em);
+                    --last-font-size: var(--first-font-size);
+                    margin-top: calc(var(--first-font-size) * -0.1);
+                    margin-bottom: calc(var(--last-font-size) * -0.1);
+                }
+
+                #Sknr1W0iWXWXppPQ {
+                    min-width: 6.19885925rem;
+                }
+
+                #vrVwsIfFgxrfqpFo {
+                    grid-area: 7 / 12 / 11 / 13;
+                    position: relative;
+                }
+
+                #VHsOcfRVfYsNdRZx {
+                    grid-template-columns: 5.62225476rem 9.87307542rem 33.4097685rem 5.33799326rem 3.07772977rem 5.64967349rem 3.11264977rem 5.09578393rem 3.11264977rem 6.62602118rem 3.34453235rem 6.16225603rem 9.57561175rem;
+                    grid-template-rows: minmax(2.56386863rem, max-content) minmax(4.19351188rem, max-content) 0 0 0 0 minmax(1.48605166rem, max-content) 0 0 0 minmax(0.0145501rem, max-content) minmax(4.17896179rem, max-content) minmax(34.7080047rem, max-content);
+                }
+
+                #OjzpDVdybkuCTwfp {
+                    min-height: calc(calc(100 * var(--1vh, 1vh)) - 50px);
+                }
+            }
+
+            @keyframes pulse {
+                0% {
+                    background-color: rgba(226, 226, 226, 0.05);
+                }
+
+                50% {
+                    background-color: rgba(226, 226, 226, 0.1);
+                }
+
+                100% {
+                    background-color: rgba(226, 226, 226, 0.05);
+                }
+            }
